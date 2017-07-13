@@ -1,0 +1,82 @@
+/* You can add global styles to this file, and also import other style files */
+
+@font-face {
+  font-family: 'Linearicons', sans-serif;
+  src: url("./assets/fonts/Linearicons.ttf");
+  src: url('./assets/fonts/Linearicons.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+body{
+  background-color: darkgray;
+  padding: 20px;
+  color: white;
+}
+
+div {
+  /*border: dashed 1px #00FFDD;*/
+}
+.productPanel{
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+}
+
+.spacer{
+  display: block;
+  width: 100%;
+  float: none;
+  height: 1em;
+}
+
+
+img.productImg:hover{
+  border: dashed 6px #00FFff;
+  padding: 0;
+}
+img.productImg{
+  border: solid 6px #000000;
+  border-radius: 50%;
+  box-shadow: 6px 6px 40px 20px #000000;
+}
+
+div.productImg{
+  position: relative;
+  top: 0;
+}
+
+/**
+* Icons
+*/
+
+[class^="icon-"],
+[class*=" icon-"] {
+  font-family: 'Linearicons', sans-serif ;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  font-size: 1.5em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+body,
+a,
+.productImg,
+button,
+input,
+textarea,
+select,
+h1,
+h2,
+ul{
+  transition: all 0.3s;
+  -moz-transition: all 0.3s; /* Firefox 4 */
+  -webkit-transition: all 0.3s; /* Safari and Chrome */
+  -o-transition: all 0.3s; /* Opera */
+}

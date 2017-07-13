@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,UAAU;EACR,KAAK,EAAE,IAAI",
+"sources": ["stage.component.scss"],
+"names": [],
+"file": "stage.component.css"
+}

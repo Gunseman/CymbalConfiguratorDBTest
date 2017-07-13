@@ -1,0 +1,58 @@
+[
+    {
+      "productId": 256,
+      "familyId": 3,
+      "familyName": "Color Cymbal 900",
+      "name": "Medium Ride",
+      "size": 20,
+      "color": "red",
+      "artNum": "CD824418",
+      "description": "",
+      "imgUrl": "http://www.gunseman.com/sandbox/cymbal-configurator/img/cymbal.png",
+      "inactive": false,
+      "zIndex": 0,
+      "rating": 3.2
+    },
+    {
+      "productId": 257,
+      "familyId": 3,
+      "familyName": "Color Cymbal 900",
+      "name": "Medium Ride",
+      "size": 18,
+      "color": "red",
+      "artNum": "CD824418",
+      "description": "",
+      "imgUrl": "http://www.gunseman.com/sandbox/cymbal-configurator/img/cymbal.png",
+      "inactive": false,
+      "zIndex": 0,
+      "rating": 3.2
+    },
+    {
+      "productId": 258,
+      "familyId": 3,
+      "familyName": "Color Cymbal 900",
+      "name": "Medium Ride",
+      "size": 17,
+      "color": "red",
+      "artNum": "CD824418",
+      "description": "",
+      "imgUrl": "http://www.gunseman.com/sandbox/cymbal-configurator/img/cymbal.png",
+      "inactive": false,
+      "zIndex": 0,
+      "rating": 3.2
+    },
+    {
+      "productId": 259,
+      "familyId": 3,
+      "familyName": "Color Cymbal 900",
+      "name": "Medium Ride",
+      "size": 16,
+      "color": "red",
+      "artNum": "CD824418",
+      "description": "",
+      "imgUrl": "http://www.gunseman.com/sandbox/cymbal-configurator/img/cymbal.png",
+      "inactive": false,
+      "zIndex": 0,
+      "rating": 3.2
+    }
+  ]

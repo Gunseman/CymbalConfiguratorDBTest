@@ -1,0 +1,15 @@
+$color : #00FFAA;
+
+span.label{
+  padding: 0.5em;
+  border-radius: 6px;
+  label-info {
+    background-color: white;
+    color: $color;
+  }
+}
+
+.isSelected{
+  border: dashed 6px #DDAA00;
+  padding: 0;
+}

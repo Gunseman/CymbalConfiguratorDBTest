@@ -1,0 +1,10 @@
+<div>
+  <h2>Login</h2>
+  <input id="name" type="text" required>
+  <input id="password" type="password" required>
+  <button type="button">senden</button>
+  <button type="button" (click)="setNewAccount()">Account erstellen</button>
+  <div *ngIf="newAccount">
+    <ai-newaccount></ai-newaccount>
+  </div>
+</div>

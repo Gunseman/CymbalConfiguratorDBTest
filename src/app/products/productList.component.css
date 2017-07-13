@@ -1,0 +1,12 @@
+span.label {
+  padding: 0.5em;
+  border-radius: 6px; }
+  span.label label-info {
+    background-color: white;
+    color: #00FFAA; }
+
+.isSelected {
+  border: dashed 6px #DDAA00;
+  padding: 0; }
+
+/*# sourceMappingURL=productList.component.css.map */

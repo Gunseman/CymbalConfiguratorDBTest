@@ -1,0 +1,25 @@
+<div class="row">
+  <div class="col-sm-12 col-md-6 col-lg-4  columns">
+    <h2>{{pageTitle}}</h2>
+  </div>
+</div>
+
+<div class="row">
+  <div class="productPanel" class="col-lg-12">
+    <div class="row">
+    <div class="col-sm-12 col-med-4 col-lg-2 columns" *ngFor='let product of products'>
+      <img class="productImg" [style.width.px]="product.size*10" [class.isSelected]="product === selectedProduct" (click)="showTools(product)" [src]='product.imgUrl' [title]='product.name'>
+      <span *ngIf="showLabel" class="label label-info"> {{product.name | uppercase}} - {{product.size | productSizeFilter}} - {{product.color}}</span>
+
+      <ai-rating [rating]="product.rating"></ai-rating>
+
+    </div>
+    </div>
+  </div>
+</div>
+<div class="stage">
+  <app-stage></app-stage>
+</div>
+<aside *ngIf="showToolbox">
+  <div><product-toolbox [productId]="getProductId()"></product-toolbox></div>
+</aside>

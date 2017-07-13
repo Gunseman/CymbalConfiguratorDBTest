@@ -1,0 +1,18 @@
+
+.rating{
+  display: flex;
+  flex-direction: row;
+  flex-flow: nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.ratingContainer{
+  width: 146px;
+  height: 30px;
+  overflow: hidden;
+}
+
+.icon-star::before {
+  content: "\e68d";
+}
