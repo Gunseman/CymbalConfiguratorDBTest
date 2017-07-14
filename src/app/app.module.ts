@@ -17,7 +17,8 @@ import { LoginComponent } from './access/login.component';
 import { AccountComponent } from './access/account.component';
 import { PageNotFoundComponent } from './shared/pageNotFound.component';
 import { NewAccountComponent } from './access/newAccount.component';
-import {StageComponent} from "./stage/stage.component";
+import { StageComponent } from "./stage/stage.component";
+import { MyAccountComponent } from "./access/myAccount.component";
 
 
 @NgModule({
@@ -34,7 +35,8 @@ import {StageComponent} from "./stage/stage.component";
     LoginComponent,
     AccountComponent,
     PageNotFoundComponent,
-    NewAccountComponent
+    NewAccountComponent,
+    MyAccountComponent
   ],
   imports: [
     BrowserModule,
@@ -44,11 +46,13 @@ import {StageComponent} from "./stage/stage.component";
       { path: 'configurator', component: ProductListComponent },
       { path: 'gallery', component: GalleryComponent },
       { path: 'login', component: LoginComponent },
-      { path: 'newAccount', component: AccountComponent },
+      { path: 'newAccount', component: NewAccountComponent },
+      { path: 'myaccount/:id', component: MyAccountComponent },
+      { path: 'myaccount', redirectTo: 'welcome' },
       { path: 'welcome', component: WelcomeComponent },
       { path: '', redirectTo: 'welcome', pathMatch: 'full' },
       { path: '**', redirectTo: 'welcome', pathMatch:'full' }
-    ], { useHash: true })
+    ], { useHash: false })
     ],
   providers: [ProductService],
   bootstrap: [AppComponent]

@@ -10,9 +10,19 @@ import{ Component } from '@angular/core';
 
 export class LoginComponent {
 
+
   public newAccount: boolean = false;
+  private _userId:number;
+
+  constructor() {
+    this._userId = 3;
+  }
   setNewAccount(){
     this.newAccount = !this.newAccount;
+  }
+
+  getUserId(): number {
+    return this._userId;
   }
 
 }

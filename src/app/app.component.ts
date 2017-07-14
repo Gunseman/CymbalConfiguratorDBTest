@@ -1,7 +1,5 @@
 import { Component } from '@angular/core';
 
-//import { ProductComponent } from './products/product.component';
-
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -9,6 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title: string = '';
+
   constructor(){
     this.title = 'Cymbal Configurator App';
   }

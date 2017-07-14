@@ -4,8 +4,6 @@
 import { Component, OnInit} from '@angular/core';
 
 import { IProduct } from './product';
-import { ProductToolboxComponent } from './productToolbox.component';
-import {isUndefined} from "util";
 import {ProductService} from "../service/product.serviceMySQL";
 
 @Component({
